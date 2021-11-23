@@ -24,6 +24,7 @@ const languages: Record<string, unknown> = {
     "pt-BR": ptBr,
     ru: ru,
     uk: uk,
+    hu: hu,
 };
 
 function localizeString(string: string, search = "", replace = "", lang: Language = ""): string {
